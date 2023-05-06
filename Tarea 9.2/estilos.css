@@ -49,8 +49,7 @@ body{
 }
 
 .caja-derecha h2{
-    float: right;
-    margin: 0px;
+    float: left;
     padding: 0px 20px 0px 0px;
 }
 
@@ -70,7 +69,8 @@ body{
     letter-spacing: -.5px;
     font-size: 1,8em;
     color: #696969; 
-    background-image: url(./img/img08.jpg) no-repeat left 4px;
+    background-image: url(./img/img08.jpg);
+    background-repeat: no-repeat;
 }
 
 .caja-derecha li a{
@@ -108,6 +108,11 @@ body{
 .fecha{
     font-weight: 600;
     font-style: italic;
+    float: left;
+}
+
+.texto{
+    float: right;
 }
 
 .post a{
@@ -124,8 +129,4 @@ body{
     letter-spacing: -.5px; 
     padding: 20px 10px 0px 30px; 
     font-size: 30px;
-}
-
-.text{
-    text-align: right
 }
