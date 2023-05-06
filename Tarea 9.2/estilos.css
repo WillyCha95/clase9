@@ -1,0 +1,131 @@
+body{
+    background-image: linear-gradient(to bottom, #4d98db, #000000);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.montaña{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.encabezado{
+    background-image: url(./img/img02\(2\).png);
+    height: 128px;
+    background-repeat: repeat-x;
+    width: 1000px;
+    margin: 0 auto;
+    padding-left: 40px;
+}
+
+.caja{
+    width: 1000px;
+    background-color: #eaeaea;
+    margin: 0 auto;
+}
+
+.caja-izquierda{
+    width: 618px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    color: #787878;
+}
+
+.caja-derecha{
+    width: 300px;
+    float: right;
+    margin: 0px;
+    padding: 0px 20px 0px 0px;
+    color: #787878
+}
+
+.caja-derecha ul{
+    float: right;
+    margin: 0px;
+    padding: 0px 20px 0px 0px;
+    color: #787878;
+    list-style: circle;
+}
+
+.caja-derecha h2{
+    float: right;
+    margin: 0px;
+    padding: 0px 20px 0px 0px;
+}
+
+.caja-derecha li {
+    color: #4D4D4D;
+    line-height: 30px;
+    margin: 0px 30px;
+    padding: 0px 0px 0px 15px;
+    border-left: none;
+}
+
+.caja-derecha h2{
+    height: 32px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #d6d6d6;
+    letter-spacing: -.5px;
+    font-size: 1,8em;
+    color: #696969; 
+    background-image: url(./img/img08.jpg) no-repeat left 4px;
+}
+
+.caja-derecha li a{
+    color: #4d4d4d;
+}
+
+.post{
+    border-bottom: 1px dotted #E7E2DC; 
+    border-top: 1px solid #ffffff; 
+    border-left: 1px solid #ffffff; 
+    border-right: 1px solid #ffffff; 
+    background: linear-gradient(to bottom, #ececec, #ffffff);
+}
+
+.post h3{
+    letter-spacing: -.5px; 
+    padding: 20px 10px 0px 30px; 
+    font-size: 30px;
+    color: #3e3530;
+}
+
+.post p{
+    padding: 0px 30px 20px 30px; 
+    padding-bottom: 20px; 
+    text-align: justify;
+}
+
+.post, 
+.post div{
+    padding: 0px 30px 20px 30px; 
+    padding-bottom: 20px; 
+    text-align: justify;
+}
+
+.fecha{
+    font-weight: 600;
+    font-style: italic;
+}
+
+.post a{
+    color: #787878;
+    text-decoration: none;
+    font-weight: 600px;
+}
+
+.limpiar{
+    clear: both;
+}
+
+.post h2{
+    letter-spacing: -.5px; 
+    padding: 20px 10px 0px 30px; 
+    font-size: 30px;
+}
+
+.text{
+    text-align: right
+}
