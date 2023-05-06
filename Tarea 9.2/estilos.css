@@ -108,6 +108,11 @@ body{
 .fecha{
     font-weight: 600;
     font-style: italic;
+    float: left;
+}
+
+.texto {
+	float: right;
 }
 
 .post a{
