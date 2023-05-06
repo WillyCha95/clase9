@@ -39,6 +39,7 @@ body{
     padding: 0px 20px 0px 0px;
     color: #787878
 }
+ 
 
 .caja-derecha ul{
     float: right;
@@ -115,6 +116,7 @@ body{
     float: right;
 }
 
+
 .post a{
     color: #787878;
     text-decoration: none;
@@ -130,3 +132,10 @@ body{
     padding: 20px 10px 0px 30px; 
     font-size: 30px;
 }
+<<<<<<< HEAD
+=======
+
+.text{
+    text-align: right
+}
+>>>>>>> f578980193cb95818192a4e6202628f91788bf52
